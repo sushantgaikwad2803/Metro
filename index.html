@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Metro Professional Unisex Salon - Premium grooming for men & women in Sangli. Expert haircuts, skin care, bridal, massage, and styling at our premium salon near Bapat Mala.">
+    <title>Metro Professional Unisex Salon | Sangli's Premium Grooming</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <div class="logo-circle">
+                    <img src="gallery/logo.png" alt="Metro Pro Salon">
+                </div>
+            </div>
+            <button class="mobile-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#" data-page="home" class="active-nav">Home</a></li>
+                    <li><a href="#" data-page="about">About Us</a></li>
+                    <li><a href="#" data-page="services">Services</a></li>
+                    <li><a href="#" data-page="packages">Packages</a></li>
+                    <li><a href="#" data-page="gallery">Gallery</a></li>
+                    <li><a href="#" data-page="testimonials">Testimonials</a></li>
+                    <li><a href="#" data-page="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <section id="home" class="page active">
+        <div class="hero-slider" id="heroSlider">
+            <div class="slide active"
+                style="background-image: url('https://images.pexels.com/photos/3992873/pexels-photo-3992873.jpeg?auto=compress&cs=tinysrgb&w=1200');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Premium Unisex Grooming<br>in Sangli</h1>
+                    <p>Expert stylists trained by Jawed Habib, premium MEVRON products & modern elegance.</p><a href="#"
+                        data-page="contact" class="btn">Book Appointment →</a>
+                </div>
+            </div>
+            <div class="slide"
+                style="background-image: url('https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1200');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Hair • Skin • Bridal<br>Massage & More</h1>
+                    <p>Experience luxury grooming at Metro Professional Unisex Salon.</p><a href="#"
+                        data-page="services" class="btn">Explore Services →</a>
+                </div>
+            </div>
+            <div class="slider-arrow prev" id="prevSlide"><i class="fas fa-chevron-left"></i></div>
+            <div class="slider-arrow next" id="nextSlide"><i class="fas fa-chevron-right"></i></div>
+            <div class="slider-nav" id="sliderDots"></div>
+        </div>
+
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Years Expertise</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">⭐ 4.9</div>
+                    <div class="stat-label">Customer Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3500+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">12+</div>
+                    <div class="stat-label">Expert Stylists</div>
+                </div>
+            </div>
+
+            <div class="section-title reveal">
+                <h2>Why Metro Pro?</h2>
+                <p>Sangli's trusted salon for men & women | Trained by Jawed Habib</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Expert Stylists</h3>
+                    <p>Trained by Jawed Habib, experienced professionals with years of grooming expertise.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>Unisex Salon</h3>
+                    <p>Premium services for both men & women in a comfortable space.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-spa"></i></div>
+                    <h3>MEVRON Products</h3>
+                    <p>Using only high-quality MEVRON professional products for exceptional results.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Prime Location</h3>
+                    <p>Shop no 1, Indoshiva Pride, near Bapat Mala, Sangli.</p>
+                </div>
+            </div>
+
+            <div class="section-title reveal">
+                <h2>Popular Services</h2>
+                <p>Most loved treatments by our clients</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-img"><img
+                            src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Hair Styling"></div>
+                    <div class="service-content">
+                        <h3>Hair Styling</h3>
+                        <p>Trendy cuts, fades, beard sculpting & hair color.</p>
+                        <div class="service-features"><span>✂️ Precision Cut</span><span>💨 Blow-dry</span></div>
+                        <div class="price-tag">Starting ₹299</div><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-img"><img
+                            src="https://images.pexels.com/photos/4065390/pexels-photo-4065390.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Skin Care"></div>
+                    <div class="service-content">
+                        <h3>Skin & Facial</h3>
+                        <p>Deep cleansing, glow facials & anti-aging treatments.</p>
+                        <div class="service-features"><span>💧 Hydration</span><span>✨ Instant Glow</span></div>
+                        <div class="price-tag">Starting ₹499</div><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-img"><img
+                            src="https://images.pexels.com/photos/3783042/pexels-photo-3783042.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Bridal"></div>
+                    <div class="service-content">
+                        <h3>Bridal & Grooming</h3>
+                        <p>Exclusive bridal makeup & groom styling packages.</p>
+                        <div class="service-features"><span>👰 HD Makeup</span><span>💨 Airbrush</span></div>
+                        <div class="price-tag">Customizable</div><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title reveal">
+                <h2>Our Work Gallery</h2>
+                <p>Real transformations at Metro Pro</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="gallery/g5.jpg"
+                        alt="Hair styling">
+                    <div class="gallery-overlay">
+                        <p>Hair Styling</p>
+                    </div>
+                </div>
+                <div class="gallery-item"><img src="gallery/g11 (11).jpg"
+                        alt="Makeup">
+                    <div class="gallery-overlay">
+                        <p>Makeup</p>
+                    </div>
+                </div>
+                <div class="gallery-item"><img src="gallery/g11 (12).jpg"
+                        alt="Nails">
+                    <div class="gallery-overlay">
+                        <p>Manicure</p>
+                    </div>
+                </div>
+            </div>
+            <div class="view-full-gallery" style="text-align:center; margin-bottom:40px;"><a href="#"
+                    data-page="gallery" class="btn-outline btn">View Full Gallery →</a></div>
+
+            <div class="section-title reveal">
+                <h2>Client Love Stories ❤️</h2>
+                <p>Real experiences from our beautiful clients</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Best salon in Sangli! The haircut and beard styling was perfect. Very professional."</p>
+                    <h4>– Rohan Patil</h4>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Bridal makeup was flawless. Everyone complimented me! Thank you Metro Pro."</p>
+                    <h4>– Sneha Deshmukh</h4>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Hygienic, friendly staff and amazing service. Highly recommended for both men & women."</p>
+                    <h4>– Aniket J.</h4>
+                </div>
+            </div>
+
+            <div class="instagram-feed-preview reveal">
+                <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                <h3>Follow Our Glam Moments</h3>
+                <p>See real transformations & daily updates</p>
+                <a href="#" class="btn btn-instagram">@metropro_sangli</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US PAGE -->
+    <section id="about" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>About Metro Pro</h2>
+                <p>Sangli's Premier Unisex Salon Destination | Trained By Jawed Habib</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-bullseye"></i></div>
+                    <h3>Our Mission</h3>
+                    <p>To provide exceptional grooming experiences with MEVRON professional products and expert stylists
+                        trained by Jawed Habib.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-eye"></i></div>
+                    <h3>Our Vision</h3>
+                    <p>To become Sangli's most trusted unisex salon, setting new standards in beauty and hygiene.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Our Values</h3>
+                    <p>Quality, Hygiene, Professionalism, and Customer First.</p>
+                </div>
+            </div>
+            <div class="offer-banner reveal">
+                <h2>Meet Our Founder</h2>
+                <p>Mr. Vikram Patil | Master Stylist | Trained by Jawed Habib | 12+ Years Experience</p>
+            </div>
+            <div class="features-grid reveal">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certified Experts</h3>
+                    <p>All stylists are professionally trained and certified by Jawed Habib Academy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-hand-sparkles"></i></div>
+                    <h3>Hygiene First</h3>
+                    <p>Sterilized equipment and premium sanitization practices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-gem"></i></div>
+                    <h3>MEVRON Products</h3>
+                    <p>We use only high-quality MEVRON professional products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES PAGE -->
+    <section id="services" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Our Premium Services</h2>
+                <p>Professional grooming for every style</p>
+            </div>
+            <div class="gallery-filter reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="hair">Hair</button>
+                <button class="filter-btn" data-filter="skin">Skin</button>
+                <button class="filter-btn" data-filter="bridal">Bridal</button>
+                <button class="filter-btn" data-filter="nails">Nails & Wax</button>
+            </div>
+            <div class="services-grid" id="servicesGrid">
+                <div class="service-card reveal" data-category="hair">
+                    <div class="service-img"><img
+                            src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Haircut"></div>
+                    <div class="service-content">
+                        <h3>Haircut & Styling</h3>
+                        <p>Trendy cuts, fades, precision styling for men & women.</p>
+                        <div class="service-features"><span>✂️ Precision Cut</span><span>💨 Blow-dry</span></div>
+                        <div class="price-tag">Starting ₹299</div><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-category="hair">
+                    <div class="service-img"><img
+                            src="https://images.pexels.com/photos/3992860/pexels-photo-3992860.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Hair Color"></div>
+                    <div class="service-content">
+                        <h3>Hair Color & Highlights</h3>
+                        <p>Global coloring, highlights & root touch-up.</p>
+                        <div class="service-features"><span>🎨 Global Color</span><span>✨ Highlights</span></div>
+                        <div class="price-tag">Starting ₹1299</div><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-category="skin">
+                    <div class="service-img"><img
+                            src="https://images.pexels.com/photos/4065390/pexels-photo-4065390.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Hydra Facial"></div>
+                    <div class="service-content">
+                        <h3>Hydra Facial</h3>
+                        <p>Deep cleansing, exfoliation & instant glow.</p>
+                        <div class="service-features"><span>💧 Hydration</span><span>✨ Instant Glow</span></div>
+                        <div class="price-tag">₹1799</div><a href="#" data-page="contact" class="service-book-btn">Book
+                            Now →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-category="bridal">
+                    <div class="service-img"><img
+                            src="https://images.pexels.com/photos/3807737/pexels-photo-3807737.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Bridal Makeup"></div>
+                    <div class="service-content">
+                        <h3>Bridal Makeup</h3>
+                        <p>Complete bridal transformation with HD/airbrush.</p>
+                        <div class="service-features"><span>👰 HD Makeup</span><span>💨 Airbrush</span></div>
+                        <div class="price-tag">Customizable</div><a href="#" data-page="contact"
+                            class="service-book-btn">Book Consultation →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-category="nails">
+                    <div class="service-img"><img
+                            src="https://images.pexels.com/photos/4813221/pexels-photo-4813221.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Manicure"></div>
+                    <div class="service-content">
+                        <h3>Manicure & Pedicure</h3>
+                        <p>Luxury hand and foot care.</p>
+                        <div class="service-features"><span>💅 Spa Manicure</span><span>🦶 Pedicure</span></div>
+                        <div class="price-tag">Starting ₹399</div><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal" data-category="skin">
+                    <div class="service-img"><img
+                            src="https://images.pexels.com/photos/3997836/pexels-photo-3997836.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="Massage"></div>
+                    <div class="service-content">
+                        <h3>Body Massage</h3>
+                        <p>Relaxing aromatherapy & deep tissue massage.</p>
+                        <div class="service-features"><span>💆‍♂️ Aromatherapy</span><span>✨ Stress Relief</span></div>
+                        <div class="price-tag">Starting ₹999</div><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES PAGE -->
+    <section id="packages" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Exclusive Packages</h2>
+                <p>Best value deals for complete pampering</p>
+            </div>
+            <div class="offer-banner reveal">
+                <h2>🔥 BUY 2 GET 2 FREE 🔥</h2>
+                <p>Monday to Friday Only | Choose any 4 services, pay for 2</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-content">
+                        <h3>Value Package</h3>
+                        <div class="price-tag">₹699</div>
+                        <p>Any 3 Services</p>
+                        <div class="service-features"><span>Hair</span><span>Facial</span><span>Waxing</span></div><a
+                            href="#" data-page="contact" class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-content">
+                        <h3>Silver Package</h3>
+                        <div class="price-tag">₹999</div>
+                        <p>Any 4 Services</p>
+                        <div class="service-features"><span>Includes Premium</span></div><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-content">
+                        <h3>Gold Package</h3>
+                        <div class="price-tag">₹1499</div>
+                        <p>Any 5 Services</p>
+                        <div class="service-features"><span>Best for Makeover</span></div><a href="#"
+                            data-page="contact" class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-content">
+                        <h3>Platinum Package</h3>
+                        <div class="price-tag">₹1999</div>
+                        <p>All Services Included</p>
+                        <div class="service-features"><span>Complete pampering</span></div><a href="#"
+                            data-page="contact" class="service-book-btn">Book Now →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY PAGE -->
+    <section id="gallery" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Our Glamorous Gallery</h2>
+                <p>Real transformations at Metro Pro</p>
+            </div>
+            <div class="gallery-filter reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="hair">Hair</button>
+                <button class="filter-btn" data-filter="makeup">Makeup</button>
+                <button class="filter-btn" data-filter="bridal">Bridal</button>
+                <button class="filter-btn" data-filter="facial">Facial</button>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item" data-category="hair"><img
+                        src="gallery/g8.jpg"
+                        alt="Hair">
+                    <div class="gallery-overlay">
+                        <p>Hair Styling</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="hair"><img
+                        src="gallery/g11 (10).jpg"
+                        alt="Hair Color">
+                    <div class="gallery-overlay">
+                        <p>Hair Color</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="makeup"><img
+                        src="gallery/g11 (15).jpg"
+                        alt="Makeup">
+                    <div class="gallery-overlay">
+                        <p>Party Makeup</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bridal"><img
+                        src="gallery/g11 (12).jpg"
+                        alt="Bridal">
+                    <div class="gallery-overlay">
+                        <p>Bridal Makeup</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="facial"><img
+                        src="gallery/g11 (8).jpg"
+                        alt="Facial">
+                    <div class="gallery-overlay">
+                        <p>Glow Facial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="lightbox" class="lightbox"><span class="lightbox-close">&times;</span><img id="lightbox-img" src=""
+                alt=""></div>
+    </section>
+
+    <!-- TESTIMONIALS PAGE -->
+    <section id="testimonials" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>What Our Clients Say</h2>
+                <p>Trusted by hundreds across Sangli</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Excellent service, friendly staff, and amazing haircut! The best unisex salon in Sangli."</p>
+                    <h4>– Aditya More</h4>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"The bridal makeup was stunning! Very professional and punctual. Highly recommend Metro Pro."</p>
+                    <h4>– Pooja Jadhav</h4>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Great ambiance, skilled stylists, and hygienic. My go-to salon now!"</p>
+                    <h4>– Kiran Desai</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT PAGE -->
+    <section id="contact" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Book Your Appointment</h2>
+                <p>Visit us or call to book your slot</p>
+            </div>
+            <div class="contact-flex">
+                <div class="contact-details reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h3>Our Location</h3>
+                            <p>Shop no 1, Indoshiva Pride Apartment, near Bapat Mala, Revenue Colony, Nishant Colony,
+                                Sangli, Maharashtra 416416</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h3>Call / WhatsApp</h3>
+                            <p><strong>070201 81171</strong></p><a href="https://wa.me/917020181171"
+                                style="color: var(--primary);">Chat on WhatsApp</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="far fa-clock"></i></div>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <p>Mon-Sun: 10:00 AM – 8:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-box reveal">
+                    <form id="bookingForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="533feccf-6bdc-41aa-9f10-9736c50f2201">
+                        <div class="form-group"><input type="text" name="name" placeholder="Full Name" required></div>
+                        <div class="form-group"><input type="tel" name="phone" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="form-group"><select name="service">
+                                <option>Select Service/Package</option>
+                                <option>Hair Services</option>
+                                <option>Skin/Facial</option>
+                                <option>Bridal Makeup</option>
+                                <option>Massage</option>
+                                <option>Manicure/Pedicure</option>
+                                <option>Value Package</option>
+                            </select></div>
+                        <div class="form-group"><textarea name="message" rows="3"
+                                placeholder="Preferred date & time"></textarea></div>
+                        <button type="submit" class="btn">Request Booking</button>
+                    </form>
+                </div>
+            </div>
+            <iframe
+                src="https://maps.google.com/maps?q=Indoshiva+Pride+Apartment+Near+Bapat+Mala+Sangli+Maharashtra&output=embed&z=16"
+                width="600" height="350" style="border:0; border-radius:28px;" allowfullscreen=""
+                loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-circle"><img src="gallery/logo.png"
+                            alt="Metro Pro"></div>
+                    <p>Premium unisex salon in Sangli — expert grooming for men & women. Trained by Jawed Habib | MEVRON
+                        Products</p>
+                    <div class="social-links"><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i
+                                class="fab fa-facebook-f"></i></a><a href="https://wa.me/917020181171"><i
+                                class="fab fa-whatsapp"></i></a></div>
+                </div>
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="about">About Us</a></li>
+                        <li><a href="#" data-page="services">Services</a></li>
+                        <li><a href="#" data-page="packages">Packages</a></li>
+                        <li><a href="#" data-page="contact">Book Now</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-phone-alt"></i> 070201 81171</p>
+                    <p><i class="fas fa-envelope"></i> metropro.sangli@gmail.com</p><a href="#" data-page="contact"
+                        class="btn" style="display:inline-block; margin-top:15px;">Book Now</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Metro Professional Unisex Salon — Premium Grooming in Sangli | Trained by Jawed Habib | MEVRON
+                    Professional</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Slider functionality
+        const slides = document.querySelectorAll('.hero-slider .slide');
+        const dotsContainer = document.getElementById('sliderDots');
+        let currentSlide = 0, slideInterval;
+        function createDots() { if (dotsContainer) { dotsContainer.innerHTML = ''; slides.forEach((_, i) => { let dot = document.createElement('div'); dot.classList.add('slider-dot'); if (i === currentSlide) dot.classList.add('active'); dot.addEventListener('click', () => goToSlide(i)); dotsContainer.appendChild(dot); }); } }
+        function goToSlide(i) { slides[currentSlide].classList.remove('active'); currentSlide = (i + slides.length) % slides.length; slides[currentSlide].classList.add('active'); updateDots(); resetInterval(); }
+        function updateDots() { document.querySelectorAll('.slider-dot').forEach((dot, i) => { if (i === currentSlide) dot.classList.add('active'); else dot.classList.remove('active'); }); }
+        function nextSlide() { goToSlide(currentSlide + 1); }
+        function prevSlide() { goToSlide(currentSlide - 1); }
+        function resetInterval() { if (slideInterval) clearInterval(slideInterval); slideInterval = setInterval(nextSlide, 5000); }
+        document.getElementById('nextSlide')?.addEventListener('click', nextSlide);
+        document.getElementById('prevSlide')?.addEventListener('click', prevSlide);
+        if (slides.length) { createDots(); resetInterval(); document.getElementById('heroSlider')?.addEventListener('mouseenter', () => clearInterval(slideInterval)); document.getElementById('heroSlider')?.addEventListener('mouseleave', resetInterval); }
+
+        // Page navigation
+        const pages = document.querySelectorAll('.page');
+        function switchPage(pageId) { pages.forEach(p => p.classList.remove('active')); document.getElementById(pageId)?.classList.add('active'); window.scrollTo({ top: 0 }); if (window.innerWidth <= 850) document.getElementById('navbar')?.classList.remove('active'); document.querySelectorAll('nav a').forEach(link => { if (link.getAttribute('data-page') === pageId) link.classList.add('active-nav'); else link.classList.remove('active-nav'); }); }
+        document.querySelectorAll('[data-page]').forEach(el => { if (el.tagName === 'A') el.addEventListener('click', (e) => { e.preventDefault(); const page = el.getAttribute('data-page'); if (page) switchPage(page); }); });
+        document.getElementById('menuToggle')?.addEventListener('click', () => document.getElementById('navbar')?.classList.toggle('active'));
+
+        // Reveal animation
+        const revealElements = document.querySelectorAll('.reveal');
+        function checkReveal() { revealElements.forEach(el => { if (el.getBoundingClientRect().top < window.innerHeight - 100) el.classList.add('active'); }); }
+        window.addEventListener('scroll', checkReveal); checkReveal();
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        document.querySelectorAll('.gallery-item').forEach(item => { item.addEventListener('click', () => { const img = item.querySelector('img').src; lightboxImg.src = img; lightbox.classList.add('active'); }); });
+        lightbox?.addEventListener('click', (e) => { if (e.target === lightbox || e.target.classList.contains('lightbox-close')) lightbox.classList.remove('active'); });
+
+        // Filter for gallery & services
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const parent = btn.parentElement;
+                parent.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.getAttribute('data-filter');
+                document.querySelectorAll('.gallery-item, .service-card').forEach(item => {
+                    const category = item.getAttribute('data-category');
+                    if (filter === 'all' || category === filter) item.style.display = 'block';
+                    else item.style.display = 'none';
+                });
+            });
+        });
+
+        // Form handler
+        const form = document.getElementById('bookingForm');
+        if (form) { form.addEventListener('submit', async (e) => { e.preventDefault(); const btn = form.querySelector('button'), orig = btn.innerText; btn.innerText = 'Sending...'; btn.disabled = true; try { const fd = new FormData(form); const res = await fetch(form.action, { method: 'POST', body: fd }); const data = await res.json(); if (data.success) alert('✅ Booking request sent! We will call you shortly at 070201 81171.'); else alert('Please call 070201 81171 to book directly.'); } catch (err) { alert('Please call us at 070201 81171 to book.'); } finally { btn.innerText = orig; btn.disabled = false; } }); }
+    </script>
+</body>
+
+</html>
